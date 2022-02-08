@@ -1,0 +1,15 @@
+{
+  "name": "Example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@emoji-captcha/server": "^1.0.4",
+    "desm": "^1.2.0",
+    "dotenv": "^16.0.0",
+    "fastify": "^3.27.1",
+    "fastify-cors": "^6.0.2",
+    "fastify-static": "^4.5.0"
+  }
+}
