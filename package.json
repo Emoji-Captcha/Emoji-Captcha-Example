@@ -4,6 +4,12 @@
   "main": "index.js",
   "type": "module",
   "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node backend/server.js"
+  },
   "dependencies": {
     "@emoji-captcha/server": "^1.0.4",
     "desm": "^1.2.0",
