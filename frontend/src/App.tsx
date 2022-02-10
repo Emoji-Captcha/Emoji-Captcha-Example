@@ -75,7 +75,7 @@ const App = () => {
                 id={idx + ""}
               />
               <label htmlFor={idx + ""}>
-                <img src={emo} alt="you are fucked" />
+                <img src={emo} alt="I am sorry that you cant see me" />
               </label>
             </div>
           ))}
