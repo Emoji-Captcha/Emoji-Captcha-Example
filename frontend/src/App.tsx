@@ -14,7 +14,7 @@ interface IEmojiRes {
   emojis: string[];
 }
 
-const host = "http://localhost:8080/api/";
+const host = "api/";
 const App = () => {
   const [emojis, setEmojis] = useState<IEmojiRes | null>();
   const [isCorrect, setIsCorrect] = useState<boolean | null>();
